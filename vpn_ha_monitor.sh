@@ -6,7 +6,7 @@
 #Modification Date: 2019-11-19
 #
 ######################################
-# Define the region
+# Define the region, you should manually change this at the first place.
 REGION=cn-north-1
 #REGION=`aws ec2 describe-instances --query 'Reservations[*].{REGION:Instances[0].Placement.AvailabilityZone}' --output text | sed 's/.$//'| head -n 1`
 
